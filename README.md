@@ -1,6 +1,8 @@
 # Lab2Web
-
-
+<p>Nama: Sayyid Sulthan Abyan</p>
+<p>NIM: 312410496</p>
+<p>Kelas: TI.24.A.5</p>
+---
 ## 📝 Langkah-Langkah Praktikum  
 
 ### 1. Membuat Dokumen HTML
@@ -36,7 +38,7 @@ Buat file baru dengan nama **lab2_css_dasar.html**, isi dengan kode berikut:
 ```
 
 📷 **Screenshot hasil:**  
-![Screenshot Step 1](images/step1.png)  
+![Screenshot Step 1](ss1.png)  
 
 ---
 
@@ -68,7 +70,7 @@ Tambahkan kode berikut di dalam tag `<head>`:
 ```
 
 📷 **Screenshot hasil:**  
-![Screenshot Step 2](images/step2.png)  
+![Screenshot Step 2](ss2.png)  
 
 ---
 
@@ -76,13 +78,13 @@ Tambahkan kode berikut di dalam tag `<head>`:
 Inline CSS ditulis langsung pada elemen HTML:  
 
 ```html
-<p style="text-align: center; color: #ccd8e4;">
-  Ini adalah paragraf dengan inline CSS.
+<p style="text-align: center; color: #e03db2;">
+Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.
 </p>
 ```
 
 📷 **Screenshot hasil:**  
-![Screenshot Step 3](images/step3.png)  
+![Screenshot Step 3](ss3.png)  
 
 ---
 
@@ -106,7 +108,7 @@ body {
 ```
 
 📷 **Screenshot hasil:**  
-![Screenshot Step 4](images/step4.png)  
+![Screenshot Step 4](ss4.png)  
 
 ---
 
@@ -116,32 +118,32 @@ Tambahkan kode di file **style_eksternal.css**:
 ```css
 /* ID Selector */
 #intro {
-  background: #418fb1;
-  border: 1px solid #099249;
-  min-height: 100px;
-  padding: 10px;
+    background: #7653e8;
+    border: 1px solid #28d277;
+    min-height: 100px;
+    padding: 10px;
 }
 #intro h1 {
-  text-align: left;
-  color: #fff;
+    text-align: left;
+    border: 0;
+    color: #fff;
 }
-
 /* Class Selector */
 .button {
-  padding: 15px 20px;
-  background: #bebcbd;
-  color: #fff;
-  display: inline-block;
-  margin: 10px;
-  text-decoration: none;
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
 }
 .btn-primary {
-  background: #E42A42;
+    background: #e74e63;
 }
 ```
 
 📷 **Screenshot hasil:**  
-![Screenshot Step 5](images/step5.png)  
+![Screenshot Step 5](ss5.png)  
 
 ---
 
