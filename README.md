@@ -149,10 +149,42 @@ Tambahkan kode di file **style_eksternal.css**:
 
 ---
 
-## ❓ Pertanyaan
+## Pertanyaan
 1. Lakukan eksperimen dengan menambah/mengubah properti CSS.  
 2. Apa perbedaan antara `h1 { ... }` dengan `#intro h1 { ... }`?  
 3. Jika ada CSS internal, eksternal, dan inline pada elemen yang sama, manakah yang diprioritaskan browser?  
 4. Jika sebuah elemen memiliki ID dan Class sekaligus, deklarasi manakah yang lebih kuat?  
+
+## Jawaban
+
+1️ Dengan menambah atau mengubah properti CSS, kita dapat melihat bagaimana setiap gaya memengaruhi tampilan halaman.  
+Contohnya seperti mengubah warna teks, menambahkan padding, atau memberi efek hover pada elemen.  
+Eksperimen ini membantu memahami fungsi setiap properti CSS serta cara mengatur layout agar lebih menarik.
+
+---
+
+2️ Selektor `h1 { ... }` berlaku untuk **semua elemen `<h1>`** di halaman web.  
+Sedangkan `#intro h1 { ... }` hanya berlaku untuk **elemen `<h1>` yang berada di dalam elemen dengan ID `intro`**.  
+Artinya, `#intro h1` memiliki tingkat kekhususan (specificity) yang lebih tinggi daripada `h1`.
+
+---
+
+3️ Urutan prioritas CSS pada elemen yang sama adalah:
+1. **Eksternal CSS** (file `.css`)
+2. **Internal CSS** (di dalam tag `<style>`)
+3. **Inline CSS** (di dalam atribut `style="..."`)
+
+Browser akan **memprioritaskan Inline CSS**, karena memiliki tingkat kekhususan tertinggi.
+
+---
+
+4️ Jika suatu elemen memiliki **ID** dan **Class** sekaligus, maka **deklarasi dengan ID lebih kuat** dibanding Class.  
+Hal ini karena tingkat kekhususan CSS dihitung sebagai berikut:
+- Elemen = 1  
+- Class = 10  
+- ID = 100  
+- Inline = 1000  
+
+Jadi, aturan pada **ID akan menimpa aturan pada Class** jika keduanya mengatur properti yang sama.
 
 ---
